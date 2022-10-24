@@ -179,8 +179,12 @@
         bottomPostsContainerSmall.classList.add("active");
         e.preventDefault();
     }));
+    const commentsCount = document.querySelector(".comments__count > span");
     const commentForm = document.querySelector("#comments-textarea");
     const commentsItems = document.querySelector(".comments__items");
+    function setCommentsCount() {
+        return commentsCount.innerHTML = commentsItems.childElementCount;
+    }
     function addReplyEvent() {
         const itemCommentsReplyAll = document.querySelectorAll(".item-comments__reply");
         if (itemCommentsReplyAll) itemCommentsReplyAll.forEach((itemCommentsReply => {
@@ -198,6 +202,7 @@
             commentForm.value = "";
             commentForm.blur();
             addReplyEvent();
+            setCommentsCount();
             e.preventDefault();
         }
     }));
