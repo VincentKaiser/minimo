@@ -510,28 +510,9 @@ body {
   padding: 0px 0px 48.355% 0px;
 }
 
-@supports (padding-top: clamp( 2.5rem , 1.0012919897rem  +  7.4935400517vw , 6.125rem )) {
-  .main-post__container-small {
-    padding-top: clamp( 2.5rem , 1.0012919897rem  +  7.4935400517vw , 6.125rem );
-  }
-}
-
-@supports not (padding-top: clamp( 2.5rem , 1.0012919897rem  +  7.4935400517vw , 6.125rem )) {
-  .main-post__container-small {
-    padding-top: calc(2.5rem + 3.625 * (100vw - 20rem) / 48.375);
-  }
-}
-
-@supports (padding-bottom: clamp( 3.125rem , 0.9802971576rem  +  10.7235142119vw , 8.3125rem )) {
-  .main-post__container-small {
-    padding-bottom: clamp( 3.125rem , 0.9802971576rem  +  10.7235142119vw , 8.3125rem );
-  }
-}
-
-@supports not (padding-bottom: clamp( 3.125rem , 0.9802971576rem  +  10.7235142119vw , 8.3125rem )) {
-  .main-post__container-small {
-    padding-bottom: calc(3.125rem + 5.1875 * (100vw - 20rem) / 48.375);
-  }
+.main-post__container-small {
+  padding-top: 2.5rem;
+  padding-bottom: 3.125rem;
 }
 
 .main-post__category {
