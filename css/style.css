@@ -392,18 +392,7 @@ body {
 
 .footer {
   background-color: #f0f0f0;
-}
-
-@supports (height: clamp( 6.25rem , 6.25rem  +  0vw , 6.25rem )) {
-  .footer {
-    height: clamp( 6.25rem , 6.25rem  +  0vw , 6.25rem );
-  }
-}
-
-@supports not (height: clamp( 6.25rem , 6.25rem  +  0vw , 6.25rem )) {
-  .footer {
-    height: calc(6.25rem + 0vw* (100vw - 20rem) / 48.375);
-  }
+  height: 6.25rem;
 }
 
 .footer__container {
@@ -429,28 +418,12 @@ body {
   padding: 0px 0px 0px 5rem;
 }
 
-@supports (gap: clamp( 0.625rem , -2.6944444444rem  +  11.1111111111vw , 1.125rem )) {
-  .footer__column:nth-child(1) {
-    gap: clamp( 0.625rem , -2.6944444444rem  +  11.1111111111vw , 1.125rem );
-  }
+.footer__column:nth-child(1) a:not(:last-child) {
+  margin-right: 1.125rem;
 }
 
-@supports not (gap: clamp( 0.625rem , -2.6944444444rem  +  11.1111111111vw , 1.125rem )) {
-  .footer__column:nth-child(1) {
-    gap: calc(0.625rem + 0.5 * (100vw - 29.875rem) / 4.5);
-  }
-}
-
-@supports (gap: clamp( 0.625rem , -4.3541666667rem  +  16.6666666667vw , 1.375rem )) {
-  .footer__column:nth-child(2) {
-    gap: clamp( 0.625rem , -4.3541666667rem  +  16.6666666667vw , 1.375rem );
-  }
-}
-
-@supports not (gap: clamp( 0.625rem , -4.3541666667rem  +  16.6666666667vw , 1.375rem )) {
-  .footer__column:nth-child(2) {
-    gap: calc(0.625rem + 0.75 * (100vw - 29.875rem) / 4.5);
-  }
+.footer__column:nth-child(2) div:not(:last-child) {
+  margin-right: 1.375rem;
 }
 
 .footer__link {
@@ -490,7 +463,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 1.0625rem;
+}
+
+.footer__icon:not(:last-child) {
+  margin-right: 1.0625rem;
 }
 
 @keyframes linkAnimation {
@@ -1520,11 +1496,14 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
-    gap: 1.875rem;
+  }
+
+  .menu__list li:not(:last-child) {
+    margin-bottom: 1.875rem;
   }
 
   .menu__item {
-    margin: 0 !important;
+    margin-right: 0 !important;
   }
 
   .menu__link {
@@ -1667,7 +1646,18 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: 0.625rem;
+  }
+
+  .footer__column:nth-child(1) {
+    margin-bottom: 0.625rem;
+  }
+
+  .footer__column:nth-child(1) a:not(:last-child) {
+    margin-right: 0.625rem;
+  }
+
+  .footer__column:nth-child(2) div:not(:last-child) {
+    margin-right: 0.625rem;
   }
 
   .main-post__image-ibg {
