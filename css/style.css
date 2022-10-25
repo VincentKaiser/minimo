@@ -402,7 +402,7 @@ body {
 
 @supports not (height: clamp( 6.25rem , 6.25rem  +  0vw , 6.25rem )) {
   .footer {
-    height: calc(6.25rem + 0vw* (100vw - 20rem) / 48.375);
+    height: calc(6.25rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -737,7 +737,7 @@ body {
 
 @supports not (gap: clamp( 3rem , 3rem  +  0vw , 3rem )) {
   .main-block__content {
-    gap: calc(3rem + 0vw* (100vw - 20rem) / 48.375);
+    gap: calc(3rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -766,7 +766,7 @@ body {
 
 @supports not (margin-bottom: clamp( 4.375rem , 4.375rem  +  0vw , 4.375rem )) {
   .post__body {
-    margin-bottom: calc(4.375rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(4.375rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -786,7 +786,7 @@ body {
 
 @supports not (margin-bottom: clamp( 3.75rem , 3.75rem  +  0vw , 3.75rem )) {
   .post__text:not(:last-child) {
-    margin-bottom: calc(3.75rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(3.75rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -802,7 +802,7 @@ body {
 
 @supports not (margin-bottom: clamp( 1.875rem , 1.875rem  +  0vw , 1.875rem )) {
   .post__text-quote {
-    margin-bottom: calc(1.875rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(1.875rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -818,7 +818,7 @@ body {
 
 @supports not (margin-bottom: clamp( 3.125rem , 3.125rem  +  0vw , 3.125rem )) {
   .post__image-ibg {
-    margin-bottom: calc(3.125rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(3.125rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -830,7 +830,7 @@ body {
 
 @supports not (margin-bottom: clamp( 3.5625rem , 3.5625rem  +  0vw , 3.5625rem )) {
   .post__image-ibg:nth-child(2) {
-    margin-bottom: calc(3.5625rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(3.5625rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -895,7 +895,7 @@ body {
 
 @supports not (margin-bottom: clamp( 4.5rem , 4.5rem  +  0vw , 4.5rem )) {
   .about-sidebar {
-    margin-bottom: calc(4.5rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(4.5rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -911,7 +911,7 @@ body {
 
 @supports not (margin-bottom: clamp( 1.5625rem , 1.5625rem  +  0vw , 1.5625rem )) {
   .about-sidebar__image-ibg {
-    margin-bottom: calc(1.5625rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(1.5625rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -923,7 +923,7 @@ body {
 
 @supports not (margin-bottom: clamp( 1.25rem , 1.25rem  +  0vw , 1.25rem )) {
   .about-sidebar__content {
-    margin-bottom: calc(1.25rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(1.25rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -939,7 +939,7 @@ body {
 
 @supports not (margin-bottom: clamp( 0.9375rem , 0.9375rem  +  0vw , 0.9375rem )) {
   .about-sidebar__title {
-    margin-bottom: calc(0.9375rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(0.9375rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -962,7 +962,7 @@ body {
 
 @supports not (margin-bottom: clamp( 3.25rem , 3.25rem  +  0vw , 3.25rem )) {
   .posts-sidebar {
-    margin-bottom: calc(3.25rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(3.25rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -978,7 +978,7 @@ body {
 
 @supports not (margin-bottom: clamp( 2rem , 2rem  +  0vw , 2rem )) {
   .posts-sidebar__title {
-    margin-bottom: calc(2rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(2rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -1127,7 +1127,7 @@ body {
 
 @supports not (margin-bottom: clamp( 2.375rem , 2.375rem  +  0vw , 2.375rem )) {
   .also__title {
-    margin-bottom: calc(2.375rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(2.375rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -1188,7 +1188,7 @@ body {
 
 @supports not (font-size: clamp( 1.25rem , 1.25rem  +  0vw , 1.25rem )) {
   .item-also__title {
-    font-size: calc(1.25rem + 0vw* (100vw - 20rem) / 48.375);
+    font-size: calc(1.25rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -1200,7 +1200,7 @@ body {
 
 @supports not (padding-top: clamp( 4.0625rem , 4.0625rem  +  0vw , 4.0625rem )) {
   .comments {
-    padding-top: calc(4.0625rem + 0vw* (100vw - 20rem) / 48.375);
+    padding-top: calc(4.0625rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -1212,7 +1212,7 @@ body {
 
 @supports not (padding-bottom: clamp( 5.75rem , 5.75rem  +  0vw , 5.75rem )) {
   .comments {
-    padding-bottom: calc(5.75rem + 0vw* (100vw - 20rem) / 48.375);
+    padding-bottom: calc(5.75rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -1224,7 +1224,7 @@ body {
 
 @supports not (margin-bottom: clamp( 2.625rem , 2.625rem  +  0vw , 2.625rem )) {
   .comments__count {
-    margin-bottom: calc(2.625rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(2.625rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -1236,7 +1236,7 @@ body {
 
 @supports not (margin-bottom: clamp( 3.25rem , 3.25rem  +  0vw , 3.25rem )) {
   .comments__items {
-    margin-bottom: calc(3.25rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(3.25rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -1255,7 +1255,7 @@ body {
 
 @supports not (margin-bottom: clamp( 3.5rem , 3.5rem  +  0vw , 3.5rem )) {
   .item-comments:not(:last-child) {
-    margin-bottom: calc(3.5rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(3.5rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -1272,7 +1272,7 @@ body {
 
 @supports not (margin-bottom: clamp( 0.75rem , 0.75rem  +  0vw , 0.75rem )) {
   .item-comments__name {
-    margin-bottom: calc(0.75rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(0.75rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -1284,7 +1284,7 @@ body {
 
 @supports not (margin-bottom: clamp( 1.4375rem , 1.4375rem  +  0vw , 1.4375rem )) {
   .item-comments__text {
-    margin-bottom: calc(1.4375rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(1.4375rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -1303,7 +1303,7 @@ body {
 
 @supports not (margin-bottom: clamp( 2.125rem , 2.125rem  +  0vw , 2.125rem )) {
   .bottom-comments {
-    margin-bottom: calc(2.125rem + 0vw* (100vw - 20rem) / 48.375);
+    margin-bottom: calc(2.125rem + 0 * (100vw - 20rem) / 48.375);
   }
 }
 
@@ -1434,6 +1434,34 @@ body {
     }
 }
 
+@supports (padding-top: clamp( 5.625rem , 3.5535714286rem  +  10.3571428571vw , 7.4375rem )) {
+    .menu__body {
+      padding-top: clamp( 5.625rem , 3.5535714286rem  +  10.3571428571vw , 7.4375rem );
+    }
+}
+
+@supports not (padding-top: clamp( 5.625rem , 3.5535714286rem  +  10.3571428571vw , 7.4375rem )) {
+    .menu__body {
+      padding-top: calc(5.625rem + 1.8125 * (100vw - 20rem) / 17.5);
+    }
+}
+
+@media not all and (-webkit-min-device-pixel-ratio: 0) and (min-width: 480px), not all and (-o-min-device-pixel-ratio: 0/1) and (min-width: 480px), not all and (min-resolution: 0.001dpcm) and (min-width: 480px) {
+@supports (-webkit-appearance: none) {
+      .menu__body .safari_only {
+        top: 7.4375rem;
+      }
+}
+}
+
+@media not all and (-webkit-min-device-pixel-ratio: 0) and (max-width: 479px), not all and (-o-min-device-pixel-ratio: 0/1) and (max-width: 479px), not all and (min-resolution: 0.001dpcm) and (max-width: 479px) {
+@supports (-webkit-appearance: none) {
+      .menu__body .safari_only {
+        padding-top: 5.625rem;
+      }
+}
+}
+
   .menu-open .menu__body {
     right: 0;
   }
@@ -1447,11 +1475,16 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+    gap: 1.875rem;
   }
 
-  .menu__list li:not(:last-child) {
-    margin-bottom: 1.875rem;
-  }
+@media not all and (-webkit-min-device-pixel-ratio: 0), not all and (-o-min-device-pixel-ratio: 0/1), not all and (min-resolution: 0.001dpcm) {
+@supports (-webkit-appearance: none) {
+      .menu__list .safari_only li:not(:last-child) {
+        margin-bottom: 1.875rem;
+      }
+}
+}
 
   .menu__item {
     margin-right: 0 !important;
@@ -1606,6 +1639,14 @@ body {
   .sidebar {
     row-gap: 3.125rem;
   }
+}
+
+@media not all and (-webkit-min-device-pixel-ratio: 0) and (max-width: 29.99875em), not all and (-o-min-device-pixel-ratio: 0/1) and (max-width: 29.99875em), not all and (min-resolution: 0.001dpcm) and (max-width: 29.99875em) {
+@supports (-webkit-appearance: none) {
+    .header__container .safari_only {
+      padding: 1.5625rem 0px;
+    }
+}
 }
 
 @media (max-width: 29.99875em) {
